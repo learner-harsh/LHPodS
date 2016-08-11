@@ -1,0 +1,16 @@
+PODS:
+  - LHPodSTest (0.1.0)
+
+DEPENDENCIES:
+  - LHPodSTest (from `../`)
+
+EXTERNAL SOURCES:
+  LHPodSTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LHPodSTest: bb26218f9f4bfc23c748e87c7e282ec400d96219
+
+PODFILE CHECKSUM: a2df69f61c77e49022d65aa022af1e6bd5cd0125
+
+COCOAPODS: 1.0.1
