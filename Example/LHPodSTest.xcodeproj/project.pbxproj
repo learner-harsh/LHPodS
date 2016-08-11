@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D9D29DC24C4B71B4C0323F7 /* Pods_LHPodSTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1B0E19F100DDF21F65D037 /* Pods_LHPodSTest_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -62,9 +61,7 @@
 		95C8EB185060D3D099E67442 /* LHPodSTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LHPodSTest.podspec; path = ../LHPodSTest.podspec; sourceTree = "<group>"; };
 		975331211DCC68E6AF567ED0 /* Pods-LHPodSTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHPodSTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHPodSTest_Example/Pods-LHPodSTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		980287D0E22F2003DAE7E72E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9FC7FD46F18BADFF902A4A28 /* Pods-LHPodSTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHPodSTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHPodSTest_Tests/Pods-LHPodSTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB1B0E19F100DDF21F65D037 /* Pods_LHPodSTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHPodSTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8F2B26A4F4C5C338F93B78C /* Pods-LHPodSTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHPodSTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHPodSTest_Tests/Pods-LHPodSTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +83,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2D9D29DC24C4B71B4C0323F7 /* Pods_LHPodSTest_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +183,6 @@
 			children = (
 				4426E525BD36B70ABB05CF82 /* Pods-LHPodSTest_Example.debug.xcconfig */,
 				975331211DCC68E6AF567ED0 /* Pods-LHPodSTest_Example.release.xcconfig */,
-				E8F2B26A4F4C5C338F93B78C /* Pods-LHPodSTest_Tests.debug.xcconfig */,
-				9FC7FD46F18BADFF902A4A28 /* Pods-LHPodSTest_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -541,7 +535,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F2B26A4F4C5C338F93B78C /* Pods-LHPodSTest_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +558,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FC7FD46F18BADFF902A4A28 /* Pods-LHPodSTest_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
