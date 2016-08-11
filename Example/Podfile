@@ -1,6 +1,6 @@
 use_frameworks!
 
 target 'LHPodSTest_Example' do
-  pod 'LHPodSTest', :path => '/Users/harshjaiswal/Documents/LHPodSTestlib lint'
+  pod 'LHPodSTest', :path => '/Users/harshjaiswal/Documents/LHPodSTestlib'
 
 end
